@@ -1,0 +1,44 @@
+#swiped {
+  position: relative;
+  height: 100vh;
+  width: auto;
+  background-color: #bfbfbf;
+  background-image: url("data:image/svg+xml,%3Csvg width='44' height='12' viewBox='0 0 44 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 12v-2L0 0v10l4 2h16zm18 0l4-2V0L22 10v2h16zM20 0v8L4 0h16zm18 0L22 8V0h16z' fill='%23070707' fill-opacity='0.29' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.swiper-container{
+    width: auto;
+    height: 100vh;
+  }
+
+.swiper-slide{
+    text-align: center;
+    padding-top: 10vh;
+  }
+
+img {
+  height: auto; 
+}  
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h3 {
+  margin: 0; 
+  padding: 0;
+  font-size: 2em!important;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+@media(min-width: 1080px) {
+img {
+  height: 70vh!important;
+}
+}
